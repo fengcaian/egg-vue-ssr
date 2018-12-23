@@ -1,0 +1,26 @@
+{
+  "app/app.js": "/public/js/chunk/app/app.js",
+  "home.js": "/public/js/chunk/home.js",
+  "runtime.js": "/public/js/runtime.js",
+  "deps": {
+    "home.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/home.js"
+      ],
+      "css": []
+    },
+    "app/app.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/app/app.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}
